@@ -545,7 +545,7 @@ function makeBotMove() {
           }
           turn = (botColor === 'G') ? 'W' : 'G';
           if (typeof createChessBoard === 'function') createChessBoard();
-      }, 300);
+      }, 3000);
   }
 }
 
