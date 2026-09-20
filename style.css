@@ -213,8 +213,10 @@ margin: 50px auto 0;
     display: grid;
     grid-template-columns: repeat(8, 60px);
     grid-template-rows: repeat(8, 60px);
-    width: 480px;
-    height: 480px;
+    width: 100%;
+    max-width: 400px;
+    height:auto;
+       aspect-ratio: 1/1;
     margin: 20px auto;
     border: none; /* إلغاء الإطار الأسود */
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* ظل خفيف جداً بدلاً من الإطار */
