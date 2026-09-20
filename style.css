@@ -206,12 +206,10 @@ margin: 0!important;
 display: block!important;
 }
 .board{
-width: 640px;
-height: 640px;
-display: grid;
-grid-template-columns:repeat(8,1fr) ;
-grid-template-rows: repeat(8,1fr);
-margin: 50px auto 0;
+width: 100% !important;
+  max-width:550px !important;
+height: 640px !important;
+
 }
 .square.white{
     background: white;
