@@ -1,38 +1,46 @@
 
-body{
-    background-image:url("81e61f6f-e649-4818-addd-0f878bb2312e.jpg");
-    background-size:contain;
-    background-position: center;
-   font-family:Arial, Helvetica, sans-serif;
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-    display:flex;
-    align-items: center;
-    justify-content:center;
-    min-height:100vh;
+/* التصميم الأساسي المخصص للكمبيوتر والشاشات العبيرة */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("81e61f6f-e649-4818-addd-0f878bb2312e.jpg");
+  background-size: cover;          /* تملى الشاشة على الكمبيوتر براحتها */
+  background-position: center;     
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-h1{
-    padding:15px 15px ;
-    margin-top: 5%;
-    margin-bottom:0%;
-    width: 90%;
-    height: 60%;
-    margin-left: auto ;
-    color: gold;
-     background-image : linear-gradient(to right ,red,blue);
-     font-size: 55px;
-    }
+h1 {
+  margin-top: 5%;
+  margin-bottom: 0%;
+  width: 40%;                      /* العرض الأصلي بتاعك المريح للكمبيوتر */
+  margin-left: 30%;                /* السنترة الأصلية بتاعت الكمبيوتر */
+  color: gold;
+  background-image: linear-gradient(to right, red, blue);
+  font-size: 55px;
+  display: block;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
 
-p{
-    margin-top: 0%;
-    width: 90%;
-    height: 40%;
-    margin-left: auto ;
-    color: gold;
-     background-image : linear-gradient(to right ,red,blue);
-    font-size: 25px;
-    }
+p {
+  margin-top: 0%;
+  width: 40%;
+  margin-left: 30%;
+  color: gold;
+  background-image: linear-gradient(to right, red, blue);
+  font-size: 25px;
+  display: block;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
     .top{
         width: 80%;
         height: 80%;
