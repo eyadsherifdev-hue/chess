@@ -389,3 +389,26 @@ button {
 
 
 }
+
+/* إعدادات الشاشات الصغيرة والموبايل لتجنب التكبير اليدوي */
+@media screen and (max-width: 768px) {
+    body {
+        margin: 0;
+        padding: 10px;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    /* تصغير حاوية اللعبة أو الرقعة لتناسب الشاشة تماماً */
+    .board-container, #board, canvas {
+        width: 100% !important;
+        max-width: 100vw !important;
+        height: auto !important;
+    }
+
+    /* جعل القطع والأزرار واضحة ومناسبة للمس بالموبايل */
+    button, .btn {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+}
