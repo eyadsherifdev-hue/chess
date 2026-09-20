@@ -1,8 +1,8 @@
 
 body{
     background-image:url("81e61f6f-e649-4818-addd-0f878bb2312e.jpg");
-    background-size:cover ;
-    background-position: contain;
+    background-size:contain;
+    background-position: center;
    font-family:Arial, Helvetica, sans-serif;
    background-repeat: no-repeat;
    background-attachment: fixed;
