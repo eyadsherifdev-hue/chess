@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لعبه شطرنج مختلفه</title>
+    <meta name="description" content="this is new chess for fun ">
+    <style></style>
+    <link rel="stylesheet" href="style.css">
+    <h1 style="text-align: center;">شطرنج</h1>
+    <p style="text-align: center;">فكره جديده في الشطرنج ممتعة</p>
+
+</head>
+<body>
+
+    <div id="menu-screen">
+        <div class="col-sm-6 col-md-4 col-lg-6 mt-3 mp-3">
+            <div class="top">
+            </div>
+
+            
+                <button id="btn-local" class="ARE">جنب بعض</button>
+            
+                <button id="btn-bot" class="ARE"> ضد كمبيوتر </button>  
+                
+            </div>
+        </div>
+    </div>
+
+    <div id="game-screen" style="display: none;">
+        <div id="board"></div>
+    </div>
+<div id="gameOverModal" class="game-over-modal">
+<div class="modal-content">
+    <h1 id="winnerTitle" style="color:gold; margin-bottom:10px ;">الكسب</h1>
+<p id="winnerText" style="font-size: 18px; color:gold; margin-bottom: 20px;"> كسبت؟ طب روح اتمشي في الشارع بقي يمكن تلاقي شنطة فلوس الحظ مش هيقعدلك كتير </p>
+<button id="restartBtn" onclick="restartGame()">جيم كمان </button>
+</div>
+</div>
+
+<!-- شاشة اختيار النمط (تظهر في الأول) -->
+<div id="time-mode-selection">
+    <h2>اختر نمط اللعبة</h2>
+    <button id="btn-mode-free" class="mode-btn">براحتنا </button>
+    <button id="btn-mode-achievement" class="mode-btn">في الإنجاز </button>
+</div>
+
+<!-- شاشة العدادات (تظهر فقط لو اختار "في الإنجاز") -->
+<div id="timers-container" style="display: none;">
+    <div id="total-game-timer">إجمالي الجيم: <span id="total-time-text">15:00</span></div>
+    <div id="turn-timer">دور اللاعب: <span id="turn-time-text">30</span> ثانية</div>
+</div>
+
+    <script src="main.js" defer></script>
+</body>
+<!-- ana 3aez a3ml fkra gededa -->
+</html>
